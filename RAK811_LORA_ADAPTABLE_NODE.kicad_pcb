@@ -167,9 +167,9 @@
     (add_net "Net-(U1-Pad9)")
   )
 
-  (module RF_Module:RAK811 (layer F.Cu) (tedit 5EF24E12) (tstamp 5EF2546F)
-    (at 186.055 128.905)
-    (descr "RAK811 LPWAN Module")
+  (module RF_Module:RAK811 (layer F.Cu) (tedit 5EF250FB) (tstamp 5EF2AC94)
+    (at 187.96 125.095)
+    (descr "RAK811 LPWAN Module https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf")
     (tags "LoRa LoRaWAN RAK811")
     (path /5EF19EE7)
     (attr smd)
