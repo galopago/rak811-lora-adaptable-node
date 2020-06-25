@@ -14,69 +14,47 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5EED2AEB
-P 4200 5600
-F 0 "H1" H 4300 5646 50  0000 L CNN
-F 1 "MountingHole" H 4300 5555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4200 5600 50  0001 C CNN
-F 3 "~" H 4200 5600 50  0001 C CNN
-	1    4200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H2
 U 1 1 5EED2E39
-P 4200 5800
-F 0 "H2" H 4300 5846 50  0000 L CNN
-F 1 "MountingHole" H 4300 5755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4200 5800 50  0001 C CNN
-F 3 "~" H 4200 5800 50  0001 C CNN
-	1    4200 5800
+P 3650 4600
+F 0 "H2" H 3750 4646 50  0000 L CNN
+F 1 "MountingHole" H 3750 4555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 3650 4600 50  0001 C CNN
+F 3 "~" H 3650 4600 50  0001 C CNN
+	1    3650 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5EED3144
-P 4200 6000
-F 0 "H3" H 4300 6046 50  0000 L CNN
-F 1 "MountingHole" H 4300 5955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4200 6000 50  0001 C CNN
-F 3 "~" H 4200 6000 50  0001 C CNN
-	1    4200 6000
+P 3650 4800
+F 0 "H3" H 3750 4846 50  0000 L CNN
+F 1 "MountingHole" H 3750 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 3650 4800 50  0001 C CNN
+F 3 "~" H 3650 4800 50  0001 C CNN
+	1    3650 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5EED33AC
-P 5050 5600
-F 0 "H4" H 5150 5646 50  0000 L CNN
-F 1 "MountingHole" H 5150 5555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5050 5600 50  0001 C CNN
-F 3 "~" H 5050 5600 50  0001 C CNN
-	1    5050 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5EED36FB
-P 5050 6000
-F 0 "H6" H 5150 6046 50  0000 L CNN
-F 1 "MountingHole" H 5150 5955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5050 6000 50  0001 C CNN
-F 3 "~" H 5050 6000 50  0001 C CNN
-	1    5050 6000
+P 4500 4400
+F 0 "H4" H 4600 4446 50  0000 L CNN
+F 1 "MountingHole" H 4600 4355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4500 4400 50  0001 C CNN
+F 3 "~" H 4500 4400 50  0001 C CNN
+	1    4500 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5EED3A44
-P 5050 5800
-F 0 "H5" H 5150 5846 50  0000 L CNN
-F 1 "MountingHole" H 5150 5755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5050 5800 50  0001 C CNN
-F 3 "~" H 5050 5800 50  0001 C CNN
-	1    5050 5800
+P 4500 4600
+F 0 "H5" H 4600 4646 50  0000 L CNN
+F 1 "MountingHole" H 4600 4555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4500 4600 50  0001 C CNN
+F 3 "~" H 4500 4600 50  0001 C CNN
+	1    4500 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -211,15 +189,6 @@ F 3 "~" H 7750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 1950 7550 1850
-Wire Wire Line
-	7550 1850 5450 1850
-Connection ~ 5450 1850
-Wire Wire Line
-	7550 2050 7000 2050
-Wire Wire Line
-	7000 2050 7000 4200
-Wire Wire Line
 	7000 4200 5850 4200
 Connection ~ 5850 4200
 $Comp
@@ -278,7 +247,7 @@ U 1 1 5EF5B11F
 P 7350 3550
 F 0 "JP2" V 7304 3618 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 7395 3618 50  0000 L CNN
-F 2 "" H 7350 3550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7350 3550 50  0001 C CNN
 F 3 "~" H 7350 3550 50  0001 C CNN
 	1    7350 3550
 	0    1    1    0   
@@ -305,4 +274,123 @@ Wire Wire Line
 Wire Wire Line
 	7750 4200 7000 4200
 Connection ~ 7000 4200
+Wire Wire Line
+	7550 1950 7000 1950
+Wire Wire Line
+	7000 1950 7000 4200
+Wire Wire Line
+	7550 2050 7150 2050
+Wire Wire Line
+	7150 2050 7150 1850
+Wire Wire Line
+	7150 1850 5450 1850
+Connection ~ 5450 1850
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 5EF586B6
+P 4150 3150
+F 0 "J8" H 4258 3331 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 3240 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4150 3150 50  0001 C CNN
+F 3 "~" H 4150 3150 50  0001 C CNN
+	1    4150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3150 4550 3150
+$Comp
+L Connector:Conn_01x01_Male J9
+U 1 1 5EF61769
+P 4150 3650
+F 0 "J9" H 4258 3831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 3740 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4150 3650 50  0001 C CNN
+F 3 "~" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3650 4550 3650
+$Comp
+L Connector:Conn_01x01_Male J10
+U 1 1 5EF6CBB4
+P 4150 3250
+F 0 "J10" H 4258 3431 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 3340 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4150 3250 50  0001 C CNN
+F 3 "~" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3250 4550 3250
+$Comp
+L Connector:Conn_01x01_Male J11
+U 1 1 5EF78D3D
+P 6750 2350
+F 0 "J11" H 6722 2374 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 2283 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 6750 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J12
+U 1 1 5EF83DA7
+P 6150 4400
+F 0 "J12" H 6122 4424 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6122 4333 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 6150 4400 50  0001 C CNN
+F 3 "~" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4400 5850 4400
+Wire Wire Line
+	5850 4400 5850 4200
+$Comp
+L Connector:Conn_01x01_Male J13
+U 1 1 5EF91077
+P 6750 2450
+F 0 "J13" H 6722 2474 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 2383 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 6750 2450 50  0001 C CNN
+F 3 "~" H 6750 2450 50  0001 C CNN
+	1    6750 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2450 6550 2450
+$Comp
+L Connector:Conn_01x01_Male J14
+U 1 1 5EF9D3AA
+P 6750 3150
+F 0 "J14" H 6722 3174 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 3083 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 6750 3150 50  0001 C CNN
+F 3 "~" H 6750 3150 50  0001 C CNN
+	1    6750 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3150 6550 3150
+$Comp
+L Connector:Conn_01x01_Male J15
+U 1 1 5EFB7B96
+P 5750 1700
+F 0 "J15" H 5722 1724 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 5722 1633 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5750 1700 50  0001 C CNN
+F 3 "~" H 5750 1700 50  0001 C CNN
+	1    5750 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1700 5450 1700
+Wire Wire Line
+	5450 1700 5450 1850
+Wire Wire Line
+	6350 2350 6550 2350
 $EndSCHEMATC
