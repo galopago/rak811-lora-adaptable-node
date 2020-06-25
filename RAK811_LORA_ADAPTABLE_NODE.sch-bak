@@ -301,16 +301,14 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J9
 U 1 1 5EF61769
-P 4150 3650
-F 0 "J9" H 4258 3831 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 4258 3740 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4150 3650 50  0001 C CNN
-F 3 "~" H 4150 3650 50  0001 C CNN
-	1    4150 3650
-	1    0    0    -1  
+P 6750 2650
+F 0 "J9" H 6722 2674 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 2583 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 6750 2650 50  0001 C CNN
+F 3 "~" H 6750 2650 50  0001 C CNN
+	1    6750 2650
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 3650 4550 3650
 $Comp
 L Connector:Conn_01x01_Male J10
 U 1 1 5EF6CBB4
@@ -393,4 +391,110 @@ Wire Wire Line
 	5450 1700 5450 1850
 Wire Wire Line
 	6350 2350 6550 2350
+Wire Wire Line
+	6350 2650 6550 2650
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFEF2F6
+P 6750 3250
+F 0 "J?" H 6722 3274 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 3183 50  0000 R CNN
+F 2 "" H 6750 3250 50  0001 C CNN
+F 3 "~" H 6750 3250 50  0001 C CNN
+	1    6750 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFEFE07
+P 6750 3350
+F 0 "J?" H 6722 3374 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 3283 50  0000 R CNN
+F 2 "" H 6750 3350 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFF0C86
+P 4150 2650
+F 0 "J?" H 4258 2831 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 2740 50  0000 C CNN
+F 2 "" H 4150 2650 50  0001 C CNN
+F 3 "~" H 4150 2650 50  0001 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFF1821
+P 4150 2750
+F 0 "J?" H 4258 2931 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 2840 50  0000 C CNN
+F 2 "" H 4150 2750 50  0001 C CNN
+F 3 "~" H 4150 2750 50  0001 C CNN
+	1    4150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFF2375
+P 4150 2850
+F 0 "J?" H 4258 3031 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 2940 50  0000 C CNN
+F 2 "" H 4150 2850 50  0001 C CNN
+F 3 "~" H 4150 2850 50  0001 C CNN
+	1    4150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFF2EEE
+P 4150 2950
+F 0 "J?" H 4258 3131 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 3040 50  0000 C CNN
+F 2 "" H 4150 2950 50  0001 C CNN
+F 3 "~" H 4150 2950 50  0001 C CNN
+	1    4150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFF38A2
+P 6750 2550
+F 0 "J?" H 6722 2574 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 6722 2483 50  0000 R CNN
+F 2 "" H 6750 2550 50  0001 C CNN
+F 3 "~" H 6750 2550 50  0001 C CNN
+	1    6750 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EFF3ECF
+P 4150 3050
+F 0 "J?" H 4258 3231 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4258 3140 50  0000 C CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "~" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3250 6550 3250
+Wire Wire Line
+	6350 3350 6550 3350
+Wire Wire Line
+	4350 2650 4550 2650
+Wire Wire Line
+	4350 2750 4550 2750
+Wire Wire Line
+	4350 2850 4550 2850
+Wire Wire Line
+	4350 2950 4550 2950
+Wire Wire Line
+	6350 2550 6550 2550
+Wire Wire Line
+	4350 3050 4550 3050
 $EndSCHEMATC
