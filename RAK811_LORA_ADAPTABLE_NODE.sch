@@ -481,4 +481,64 @@ F 3 "~" H 7700 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 1550 7950 1550
+$Comp
+L Connector:Conn_01x09_Male J11
+U 1 1 5EFBD325
+P 6650 5300
+F 0 "J11" H 6758 5881 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 6758 5790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 6650 5300 50  0001 C CNN
+F 3 "~" H 6650 5300 50  0001 C CNN
+	1    6650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x09_Male J10
+U 1 1 5EFBF61F
+P 5900 5300
+F 0 "J10" H 6008 5881 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 6008 5790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 5900 5300 50  0001 C CNN
+F 3 "~" H 5900 5300 50  0001 C CNN
+	1    5900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x09_Male J12
+U 1 1 5EFC1064
+P 7400 5300
+F 0 "J12" H 7508 5881 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 7508 5790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 7400 5300 50  0001 C CNN
+F 3 "~" H 7400 5300 50  0001 C CNN
+	1    7400 5300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7600 4900
+NoConn ~ 7600 5000
+NoConn ~ 7600 5100
+NoConn ~ 7600 5200
+NoConn ~ 7600 5300
+NoConn ~ 7600 5400
+NoConn ~ 7600 5500
+NoConn ~ 7600 5600
+NoConn ~ 7600 5700
+NoConn ~ 6850 5700
+NoConn ~ 6850 5600
+NoConn ~ 6850 5500
+NoConn ~ 6850 5400
+NoConn ~ 6850 5300
+NoConn ~ 6850 5200
+NoConn ~ 6850 5100
+NoConn ~ 6850 5000
+NoConn ~ 6850 4900
+NoConn ~ 6100 4900
+NoConn ~ 6100 5000
+NoConn ~ 6100 5100
+NoConn ~ 6100 5200
+NoConn ~ 6100 5300
+NoConn ~ 6100 5400
+NoConn ~ 6100 5500
+NoConn ~ 6100 5600
+NoConn ~ 6100 5700
 $EndSCHEMATC
