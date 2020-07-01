@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "RAK811 LORA ADAPTABLE NODE"
 Date ""
 Rev ""
-Comp ""
+Comp "Galopago"
 Comment1 ""
 Comment2 ""
 Comment3 ""
