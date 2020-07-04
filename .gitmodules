@@ -6,3 +6,6 @@
 	path = modules
 	url = https://github.com/galopago/kicad-footprints
 	branch = RAK811-FOOTPRINT
+[submodule "packages3D"]
+	path = packages3D
+	url = https://github.com/kicad/kicad-packages3D
