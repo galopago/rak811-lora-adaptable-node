@@ -16,3 +16,12 @@ Directory structure
 * packages3d directory (git submodule) contains 3D model libraries.
 * gerber/single directory contains ready to manufacture files, for a single board.
 * gerber/panel_100mmx100mm directory contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
+
+License
+-------
+
+.. image:: https://i.creativecommons.org/l/by/4.0/88x31.png
+   :target: http://creativecommons.org/licenses/by/4.0/
+
+
+This is an Open Hardware project and is licensed under a `Creative Commons Attribution 4.0 International License, <http://creativecommons.org/licenses/by/4.0/>`_
