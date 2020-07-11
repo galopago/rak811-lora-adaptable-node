@@ -1,6 +1,9 @@
 =======================================================================================================================================
 RAK811 based LoRa node, with multiple expansion possibilities and designed to fit inside a generic 83x58x33mm waterproof enclosure box.
 =======================================================================================================================================
+
+.. image:: /docs/pcb3d.png
+
 How to use this repository
 --------------------------
 
