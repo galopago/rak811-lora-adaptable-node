@@ -1,11 +1,12 @@
-=======================================================================================================================================
-RAK811 based LoRa node, with multiple expansion possibilities and designed to fit inside a generic 83x58x33mm waterproof enclosure box.
-=======================================================================================================================================
+====================================================================================================================================================
+Nodo LoRa basado en RAK811, con multiples posibilidades de expansion y diseñado para instalarse en una caja a prueba de agua generica de  83x58x33mm 
+===================================================================================================================================================
 
-LoRa node powered by AA batteries ready to install inside an easy to find waterproof enclosure.
+Nodo LoRa alimentado por baterias AA listo para instalar en caja a prueba de agua facil de conseguir.
 
 Lea esto en otros idiomas: `English <../README.rst>`_
-.. image:: pcb3d.png
+
+.. image:: /pcb3d.png
 
 Caracteristicas claves:
 -----------------------
