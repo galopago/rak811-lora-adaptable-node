@@ -5,7 +5,6 @@ RAK811 based LoRa node, with multiple expansion possibilities and designed to fi
 LoRa node powered by AA batteries ready to install inside an easy to find waterproof enclosure.
 
 Read this in other languages: `Español </docs/README.es.rst>`_
-
 .. image:: /docs/pcb3d.png
 
 Key features:
