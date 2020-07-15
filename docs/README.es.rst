@@ -4,12 +4,12 @@ RAK811 based LoRa node, with multiple expansion possibilities and designed to fi
 
 LoRa node powered by AA batteries ready to install inside an easy to find waterproof enclosure.
 
-Read this in other languages: `Español </docs/README.es.rst>`_
-.. image:: /docs/pcb3d.png
+Lea esto en otros idiomas: `English <../README.rst>`_
+.. image:: pcb3d.png
 
-Key features:
--------------
-* Powered by 2xAA (1.5v) batteries or a single (3.0v) battery.
+Caracteristicas claves:
+-----------------------
+* Alimentacion mediante 2 baterias AA (1.5v) o mediante una sola bateria de 3.0v en formato LR6.
 * Waterproof if installed in an "easy to find worldwide" 83x58x33mm waterproof plastic enclosure (multiple choices: clear cover, wall mounting tabs, etc.).
 * Class A battery powered or Class C external powered via screw terminal.
 * RAK811 = SX1276+STM32L151. So no additional cpu/microcontroller needed for a complete solution.
