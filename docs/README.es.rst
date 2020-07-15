@@ -20,25 +20,24 @@ Caracteristicas claves:
 
 Como usar este repositorio
 --------------------------
+El circuito impreso fue desarrollado en KiCad V5.1, e incluye algunos elementos que un no han sido agregados al repositorio oficial de las bibliotecas de KiCad. Para asegurar que el diseño puede ser editado tal cual como fue creado, todas las bibliotecas de KiCad han sido incluidas como submodulos de git, asi que para descargar dichos submodulos se debe clonar el repositorio con la opcion --recursive (se descargaran aproximadamente 5 GB !!).
 
-The PCB was developed in KiCad V5.1, and include some elements that are not merged yet to the main KiCad library repo. To make sure nothing will break on the future, all the KiCad libraries were included as git submodules, so to clone the repo use the --recursive option to get all submodules (about 5 Gb !!).
+Para configurar KiCad para que use las bibliotecas descargadas del repositorio en vez de usar las que vienen incluidas con el instalador, se recomienda leer el `siguiente articulo <https://forum.kicad.info/t/library-management-in-kicad-version-5/14636>`_ el cual brinda ideas de como hacerlo.
 
-To setup KiCad to use the downloaded library from the repo instead of the stock that came with the installer, `this post <https://forum.kicad.info/t/library-management-in-kicad-version-5/14636>`_ will give you some lights.
-
-Directory structure
+Estructura de directorios
 -------------------
-* The root folder contains KiCad files: project, schematic and PCB.
-* library directory (git submodule) contains schematics symbol libraries.
-* modules directory (git submodule) contains footprint libraries.
-* packages3d directory (git submodule) contains 3D model libraries.
-* gerber/single directory contains ready to manufacture files, for a single board.
-* gerber/panel_100mmx100mm directory contains ready to manufacture files that fits in a 100mm x 100mm panel (use Vcuts!).
+* El directorio raiz contiene los archivos de KiCad: proyecto, esquematico y circuito impreso.
+* library (submodulo git) contiene las bibliotecas de simbolos esquematicos.
+* modules (submodulo git) contiene las bibliotecas de footprints.
+* packages3d (submodulo git) contiene las bibliotecas de modelos 3D.
+* gerber/single contiene los archivos para fabricacion del circuito impreso, para una sola tarjeta.
+* gerber/panel_100mmx100mm contiene los archivos para fabricacion del circuito impreso, para multiples tarjetas que caben en un panel de 100mm x 100mm (usando Vcuts!).
 
-License
+Licencia
 -------
 
 .. image:: https://i.creativecommons.org/l/by/4.0/88x31.png
    :target: http://creativecommons.org/licenses/by/4.0/
 
 
-This is an Open Hardware project and is licensed under a `Creative Commons Attribution 4.0 International License, <http://creativecommons.org/licenses/by/4.0/>`_
+Este es un proyecto de Hardware Libre y esta licenciado bajo una licencia `Creative Commons Attribution 4.0 International License, <http://creativecommons.org/licenses/by/4.0/>`_
