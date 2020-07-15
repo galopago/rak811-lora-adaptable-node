@@ -6,13 +6,13 @@ Nodo LoRa alimentado por baterias AA listo para instalar en caja a prueba de agu
 
 Lea esto en otros idiomas: `English <../README.rst>`_
 
-.. image:: /pcb3d.png
+.. image:: pcb3d.png
 
 Caracteristicas claves:
 -----------------------
 * Alimentacion mediante 2 baterias AA (1.5v) o mediante una sola bateria de 3.0v en formato LR6.
 * A prueba de agua si se instala en una caja plastica "facil de conseguir" de dimensiones 83x58x33mm. Hay varios modelos: tapa transparente, pestañas para montaje en pared, etc.).
-* Clase A alimentado mediante baterias o Clase C alimentado externamente por el terminal de tornillo.
+* Clase A alimentado mediante baterias o clase C alimentado externamente por el terminal de tornillo.
 * RAK811 = SX1276+STM32L151. No se requiere una cpu o microcontrolador adicional para una solucion completa.
 * Puede ser programado usando la API  `RAK Unified Interface (RUI), <https://doc.rakwireless.com/quick-start/rak5010-wistrio-nb-iot-tracker/rui-online-compiler>`_ para desarrollo rapido o mediante STM32 CUBE LoRa.
 * Multiples posibilidades para antena: pad para soldar antena de resorte interna o conector U.FL para antena externa
