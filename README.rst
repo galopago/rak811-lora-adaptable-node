@@ -21,7 +21,7 @@ Key features:
 How to use this repository
 --------------------------
 
-The PCB was developed in KiCad V5.1, and include some elements that are not merged yet to the main KiCad library repo. To make sure nothing will break on the future, all the KiCad libraries were included as git submodules, so to clone the repo use the --recursive option to get all submodules (about 5 Gb !!).
+The PCB was developed in KiCad V5.1, and include some elements from the official repo.
 
 To setup KiCad to use the downloaded library from the repo instead of the stock that came with the installer, `this post <https://forum.kicad.info/t/library-management-in-kicad-version-5/14636>`_ will give you some lights.
 
