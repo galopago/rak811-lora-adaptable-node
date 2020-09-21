@@ -2,7 +2,3 @@
 	path = library
 	url = https://github.com/galopago/kicad-symbols
 	branch = RAK811
-[submodule "modules"]
-	path = modules
-	url = https://github.com/galopago/kicad-footprints
-	branch = RAK811-FOOTPRINT
